@@ -1,0 +1,17 @@
+- !policy
+  id: conjur
+  body:
+    - !policy
+        id: cluster/eya_cluster
+        body:
+        - !group
+        - &hosts
+          - !host
+            id: ec2-13-56-163-45.us-west-1.compute.amazonaws.com
+          - !host
+            id: ec2-13-56-194-50.us-west-1.compute.amazonaws.com 
+          - !host
+            id: ec2-54-215-214-190.us-west-1.compute.amazonaws.com
+        - !grant
+          role: !group
+          member: *hosts 
