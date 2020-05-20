@@ -7,11 +7,11 @@
         - !group
         - &hosts
           - !host
-            id: ec2-13-56-163-45.us-west-1.compute.amazonaws.com
+            id: ec2-3-133-109-17.us-east-2.compute.amazonaws.com
           - !host
-            id: ec2-13-56-194-50.us-west-1.compute.amazonaws.com 
+            id: ec2-13-59-103-194.us-east-2.compute.amazonaws.com
           - !host
-            id: ec2-54-215-214-190.us-west-1.compute.amazonaws.com
+            id: ec2-18-223-213-237.us-east-2.compute.amazonaws.com
         - !grant
           role: !group
           member: *hosts 
