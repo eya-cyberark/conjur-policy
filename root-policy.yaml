@@ -22,5 +22,5 @@
  id: dev
  owner: !group dap-admins
  annotations:
- Environment: Development
+  Environment: Development
 ...
