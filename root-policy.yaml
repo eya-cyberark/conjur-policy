@@ -8,7 +8,7 @@
  id: dap-admins
  owner: !user admin
  annotations:
- Department: DAP Security Admins
+  Department: DAP Security Admins
 
 # PERMIT: Assign admins-dap GROUP full control permissions (root Branch)
 
